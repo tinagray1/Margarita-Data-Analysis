@@ -9,7 +9,7 @@ I was curious about how they came to this conclusion, and wondered - if I were a
 ### Process Overview
 1. Extracting data
    - I downloaded the data in .csv format from our POS system, Toast.
-   - Toast limits you to only downloading one month of data at a time. I decided to look at March 2024, April 2024, June 2024, July 2024, and March 2025.
+   - Toast limits you to only downloading one month of data at a time. I decided to look at March 2024, April 2024, June 2024, July 2024, March 2025, and April 2025.
 2. Data Cleaning (Excel)
    - Removed columns that were irrelevant to the analysis or redundant to save processing time in SQL and Tableau
    - Filtered data to remove rows that contained customer phone numbers
