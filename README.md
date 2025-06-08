@@ -9,7 +9,7 @@ I was curious about how they came to this conclusion. I wondered - if I were a d
 ### Process Overview
 1. Extracting data
    - I downloaded the data in .csv format from our POS system, Toast.
-   - Toast limits you to only downloading one month of data at a time. I decided to look at [March 2024](ItemSelectionDetails_2024_03_01_2024_03_31.xlsx), April 2024, June 2024, July 2024, March 2025, and April 2025.
+   - Toast limits you to only downloading one month of data at a time. I decided to look at [March 2024](ItemSelectionDetails_2024_03_01-2024_03_31.xlsx), April 2024, June 2024, July 2024, March 2025, and April 2025.
 2. Data Cleaning (Excel)
    - Removed columns that were irrelevant to the analysis or redundant to save processing time in SQL and Tableau
    - Added a column using the TEXT function in Excel to convert the full date/time into the day of the week for each transaction.
